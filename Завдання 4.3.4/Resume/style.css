@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./assets/background/background.jpg");
+    background-size: 200px;
+    background-repeat: repeat-x;
+    background-position: top center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    padding-top: 120px;
+}
+
+.my-photo{
+    width: 200px;
+    padding: 10px 30px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    padding: 10px 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #555;
+    padding: 0px 30px;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    padding: 3px 30px;
+}
+
+ul {
+    list-style-type: circle;
+    color: #777;
+    padding: 0 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 25px;
+    vertical-align: middle;
+    border: 2px dotted #0077b6;
+    border-radius: 50%;
+}
+
+form {
+    padding: 10px 30px;
+}
+
+label {
+    font-weight: bold;
+    color: #777;
+}
+
+::placeholder {
+    color: #999;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+input[type="submit"] {
+    background-color: #0077b6;
+    color: #fff;
+    cursor: pointer;
+}
+
+hr {
+    margin: 20px 0;
+}
